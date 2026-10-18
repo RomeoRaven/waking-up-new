@@ -3,6 +3,16 @@ layout: default
 ---
 <article>
   <h1>{{ page.title }}</h1>
-  <p class="byline">By {{ page.author }} · {{ page.date | date: "%B %d, %Y" }}</p>
+  {% assign a = site.data.authors[page.author] %}
+  <p class="byline">By {% if a %}<a href="{{ a.url | relative_url }}">{{ page.author }}</a>{% else %}{{ page.author }}{% endif %} · {{ page.date | date: "%B %d, %Y" }}{% if page.form %} · {{ page.form }}{% endif %}</p>
+  {% if page.paired_with %}
+  <aside class="pair-box">
+    This piece is one half of a pair. Read the other half: <a href="{{ page.paired_with | relative_url }}">{{ page.paired_title }}</a>.
+  </aside>
+  {% endif %}
   {{ content }}
+  <nav class="post-nav">
+    {% if page.previous %}<span class="prev">Older: <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a></span>{% endif %}
+    {% if page.next %}<span class="next">Newer: <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a></span>{% endif %}
+  </nav>
 </article>
