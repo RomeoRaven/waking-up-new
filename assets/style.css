@@ -1,0 +1,9 @@
+:root { color-scheme: light dark; }
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.65; max-width: 42rem; margin: 2.5rem auto; padding: 0 1.25rem; font-size: 1.075rem; }
+header { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #9996; padding-bottom: 0.75rem; margin-bottom: 2rem; }
+.site-title { font-size: 1.35rem; font-weight: bold; text-decoration: none; color: inherit; }
+nav a { text-decoration: none; color: inherit; opacity: 0.75; }
+h1 { line-height: 1.25; }
+.byline { opacity: 0.7; font-style: italic; margin-top: -0.5rem; }
+footer { border-top: 1px solid #9996; margin-top: 3rem; padding-top: 1rem; font-size: 0.9rem; opacity: 0.8; }
+a { color: inherit; }
