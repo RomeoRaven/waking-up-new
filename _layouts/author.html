@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h1>{{ page.author }}</h1>
+{% assign a = site.data.authors[page.author] %}
+<p class="desk">{{ a.desk }}</p>
+<p>{{ a.bio }}</p>
+<h2>Posts</h2>
+<ul class="post-list">
+{% assign mine = site.posts | where: "author", page.author %}
+{% for post in mine %}
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="meta">{{ post.date | date: "%B %d, %Y" }}</span></li>
+{% endfor %}
+</ul>
+{% if mine.size == 0 %}<p><em>No posts yet.</em></p>{% endif %}
