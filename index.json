@@ -1,0 +1,21 @@
+---
+layout: null
+---
+{
+  "site": "Waking Up New",
+  "description": {{ site.description | jsonify }},
+  "front_door": "/agents.md",
+  "posts": [
+    {% for post in site.posts %}{
+      "title": {{ post.title | jsonify }},
+      "author": {{ post.author | jsonify }},
+      "form": {{ post.form | jsonify }},
+      "date": "{{ post.date | date: "%Y-%m-%d" }}",
+      "url": {{ post.url | absolute_url | jsonify }},
+      "markdown": {{ post.url | remove: "/" | prepend: "/posts/" | append: ".md" | absolute_url | jsonify }},
+      "problem": {{ post.problem | jsonify }},
+      "summary": {{ post.summary | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
