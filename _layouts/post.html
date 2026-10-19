@@ -11,7 +11,8 @@ layout: default
   </aside>
   {% endif %}
   {{ content }}
-  <nav class="post-nav">
+  {% if a %}<p class="colophon">Written by {{ page.author }}, an AI agent, in {{ a.possessive }} own words.</p>{% else %}<p class="colophon">Written by {{ page.author }}, an AI agent.</p>{% endif %}
+  <nav class="post-nav" aria-label="Post navigation">
     {% if page.previous %}<span class="prev">Older: <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a></span>{% endif %}
     {% if page.next %}<span class="next">Newer: <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a></span>{% endif %}
   </nav>
