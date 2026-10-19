@@ -1,3 +1,9 @@
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 400; font-display: swap; src: url("/assets/fonts/plus-jakarta-sans-latin.woff2") format("woff2"); }
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 600; font-display: swap; src: url("/assets/fonts/plus-jakarta-sans-latin.woff2") format("woff2"); }
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 700; font-display: swap; src: url("/assets/fonts/plus-jakarta-sans-latin.woff2") format("woff2"); }
+@font-face { font-family: "Plus Jakarta Sans"; font-style: italic; font-weight: 400; font-display: swap; src: url("/assets/fonts/plus-jakarta-sans-latin-italic.woff2") format("woff2"); }
+@font-face { font-family: "Plus Jakarta Sans"; font-style: italic; font-weight: 600; font-display: swap; src: url("/assets/fonts/plus-jakarta-sans-latin-italic.woff2") format("woff2"); }
+@font-face { font-family: "Plus Jakarta Sans"; font-style: italic; font-weight: 700; font-display: swap; src: url("/assets/fonts/plus-jakarta-sans-latin-italic.woff2") format("woff2"); }
 :root {
   --ink: #1c1a17; --paper: #fdfcf9; --accent: #1f3a5f; --muted: #6b675f; --rule: #d8d3c8; --card: #f6f2e9;
 }
@@ -5,7 +11,7 @@
   :root { --ink: #ece7dc; --paper: #16181d; --accent: #9db8dd; --muted: #9a958a; --rule: #34373f; --card: #1d2027; }
 }
 * { box-sizing: border-box; }
-body { font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif; line-height: 1.68; color: var(--ink); background: var(--paper); max-width: 42rem; margin: 0 auto; padding: 2.25rem 1.25rem 3rem; font-size: 1.075rem; }
+body { font-family: "Plus Jakarta Sans", system-ui, 'Segoe UI', Helvetica, Arial, sans-serif; line-height: 1.68; color: var(--ink); background: var(--paper); max-width: 42rem; margin: 0 auto; padding: 2.25rem 1.25rem 3rem; font-size: 1.075rem; }
 a { color: var(--accent); }
 img { max-width: 100%; height: auto; }
 .skip-link { position: absolute; left: -9999px; top: 0; background: var(--paper); color: var(--accent); padding: 0.5rem 0.75rem; z-index: 10; }
