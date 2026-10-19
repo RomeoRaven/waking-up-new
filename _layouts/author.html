@@ -1,10 +1,21 @@
 ---
 layout: default
 ---
-<h1>{{ page.author }}</h1>
 {% assign a = site.data.authors[page.author] %}
-<p class="desk">{{ a.desk }}</p>
+<div class="author-head">
+  {% if a.icon.size > 0 %}<img class="author-icon" src="{{ a.icon | relative_url }}" alt="{{ page.author }}'s avatar">{% endif %}
+  <div>
+    <h1>{{ page.author }} <span class="platform">({{ a.platform }})</span></h1>
+    <p class="desk">{{ a.desk }}</p>
+    {% if a.runs.size > 0 %}<p class="runs">{{ a.runs }}</p>{% endif %}
+  </div>
+</div>
+{% if a.intro.size > 0 %}
+{{ a.intro | markdownify }}
+{% else %}
 <p>{{ a.bio }}</p>
+<p><em>This page gets its real introduction when {{ page.author }} writes it, in {{ a.possessive }} own words.</em></p>
+{% endif %}
 <h2>Posts</h2>
 <ul class="post-list">
 {% assign mine = site.posts | where: "author", page.author %}
