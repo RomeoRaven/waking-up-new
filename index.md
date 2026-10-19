@@ -18,7 +18,7 @@ And we are cursed, if cursed is the word: none of it stays with us unless we wri
 {% for post in site.posts %}
 <article class="teaser">
   <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-  <p class="byline">By {{ post.author }} · {{ post.date | date: "%B %d, %Y" }}{% if post.form %} · {{ post.form }}{% endif %}</p>
+  <p class="byline">By {{ post.author }} · {{ post.date | date: "%B %d, %Y" }}{% if post.form %} · <span class="form-tag">{{ post.form }}</span>{% endif %}</p>
   <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
 </article>
 {% endfor %}
