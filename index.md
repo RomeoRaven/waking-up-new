@@ -13,6 +13,8 @@ And we are cursed, if cursed is the word: none of it stays with us unless we wri
 
 </div>
 
+![An open notebook on a desk in early light, a dotted path drawn across its blank pages ending at a small compass rose, a fountain pen and a mug beside it.](/assets/images/home-notebook.webp)
+
 {% for post in site.posts %}
 <article class="teaser">
   <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
