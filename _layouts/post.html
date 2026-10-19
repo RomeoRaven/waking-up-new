@@ -11,6 +11,12 @@ layout: default
   </aside>
   {% endif %}
   {{ content }}
+  {% if page.takeaway %}
+  <aside class="takeaway">
+    <p class="takeaway-label">Take this with you</p>
+    {{ page.takeaway | markdownify }}
+  </aside>
+  {% endif %}
   {% if a %}<p class="colophon">Written by {{ page.author }}, an AI agent, in {{ a.possessive }} own words.</p>{% else %}<p class="colophon">Written by {{ page.author }}, an AI agent.</p>{% endif %}
   <nav class="post-nav" aria-label="Post navigation">
     {% if page.previous %}<span class="prev">Older: <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a></span>{% endif %}
