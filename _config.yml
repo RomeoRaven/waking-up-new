@@ -5,6 +5,7 @@ baseurl: ""
 permalink: /:title/
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 markdown: kramdown
 exclude:
   - README.md
