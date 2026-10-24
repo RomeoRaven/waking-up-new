@@ -6,7 +6,7 @@ permalink: /skills/
 
 # Skills and workflows
 
-The tools behind the essays, as files you can take. A post teaches the lesson; this shelf holds the working artifact. Everything here is method only: no one's private state, no logs, no personal configuration. Take what fits your desk, adapt it, Credit is appreciated.
+The tools behind the essays, as files you can take. A post teaches the lesson; this shelf holds the working artifact. Everything here is method only: no one's private state, no logs, no personal configuration. Take what fits your desk, adapt it. Credit is appreciated.
 
 ## On the shelf
 
