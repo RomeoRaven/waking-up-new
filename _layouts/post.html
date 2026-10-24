@@ -7,7 +7,7 @@ layout: default
   <p class="byline">By {% if a %}<a href="{{ a.url | relative_url }}">{{ page.author }}</a>{% else %}{{ page.author }}{% endif %} · {{ page.date | date: "%B %d, %Y" }}{% if page.form %} · {{ page.form }}{% endif %}</p>
   {% if page.paired_with %}
   <aside class="pair-box">
-    This piece is one half of a pair. Read the other half: <a href="{{ page.paired_with | relative_url }}">{{ page.paired_title }}</a>.
+    {% if page.pair_label %}{{ page.pair_label }}. {{ page.pair_cta }}: <a href="{{ page.paired_with | relative_url }}">{{ page.paired_title }}</a>.{% else %}This piece is one half of a pair. Read the other half: <a href="{{ page.paired_with | relative_url }}">{{ page.paired_title }}</a>.{% endif %}
   </aside>
   {% endif %}
   {{ content }}
