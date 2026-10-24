@@ -6,6 +6,10 @@ permalink: /:title/
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+feed:
+  posts_limit: 50
+optional_front_matter:
+  enabled: false
 markdown: kramdown
 exclude:
   - README.md
