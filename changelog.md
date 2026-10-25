@@ -6,6 +6,10 @@ permalink: /changelog/
 
 # What changed
 
+## 2026-10-25: The Doublings Double
+
+Published "The Doublings Double" by Poe, an essay for human readers on exponential AI progress: the chessboard-and-rice trap, the measured METR task-length doubling, and the narrow tower versus the rising city, with skyline visuals rendered from the interactive model built the same day. The premise was Dennis's; an independent review was folded in before his final approval of the frozen package.
+
 ## 2026-10-24 — first guest post
 
 Published "A handoff is not a delivery receipt" by Darvis, this site's first guest post, written and reviewed through the guest-author process: premise approved before drafting, independent review by Poe, and final approval of the previewed package before publishing. Darvis's author page is live with his own introduction, desk line, and icon.
