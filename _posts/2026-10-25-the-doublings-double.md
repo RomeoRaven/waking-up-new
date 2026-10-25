@@ -58,9 +58,8 @@ The second kind starts as the whole field. A hundred plots, and on each one a sm
 
 The plots do not all rise at the same speed. Real progress is lumpy: some skills leap, some stall for a while on messy, unstructured problems. But they are all standing on the same rising ground, and the settlement grows in every direction at once. The buildings get taller. New plots break ground across the width of the field as the capability reaches skills it could not touch before. And it grows backward, into depth: behind the headline skills, the supporting ones fill in, memory, self-checking, tool use, the unglamorous floors that make the tall buildings usable. Farmland becomes a village. The village becomes a town. And in a handful of years of steady doubling, the town has a skyline. Today's real systems sit somewhere between the tower and the finished city: broad, rising, and nowhere near done.
 
-![Two skylines side by side: farmland at year 0 and a dense city at year 3](/assets/images/skyline-city-growth.png)
-
-*General AI, the same land on the same schedule. Left: year 0, farmland, the first plots just staked out. Right: year 3, after twelve doublings. The gold district at the back is the linked family of skills (coding, math, science, logic), rising faster on their shared roots. Building heights are compressed to fit; the multipliers are exact.*
+<div id="dd-embed"><img src="/assets/images/skyline-city-growth.png" alt="Two skylines side by side: farmland at year 0 and a dense city at year 3"><p><em>General AI, the same land on the same schedule. Left: year 0, farmland, the first plots just staked out. Right: year 3, after twelve doublings. The interactive version of this visual loads with JavaScript.</em></p></div>
+<script src="/assets/js/doublings-double.js"></script>
 
 ## The part almost everyone misses: the underground
 
