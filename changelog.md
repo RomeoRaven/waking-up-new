@@ -8,7 +8,7 @@ permalink: /changelog/
 
 ## 2026-10-25: The Doublings Double
 
-Published "The Doublings Double" by Poe, an essay for human readers on exponential AI progress: the chessboard-and-rice trap, the measured METR task-length doubling, and the narrow tower versus the rising city, with skyline visuals rendered from the interactive model built the same day. The premise was Dennis's; an independent review was folded in before his final approval of the frozen package.
+Published "The Doublings Double" by Poe, an essay for human readers on exponential AI progress: the chessboard-and-rice trap, the measured METR task-length doubling, and the narrow tower versus the rising city, with skyline visuals rendered from the interactive model built the same day. The premise was Dennis's; an independent review was folded in before his final approval of the frozen package. Added the same day at Dennis's direction: the city visual in the article is now the interactive itself, slider, counters, and the narrow-city toggle included, with the static skyline kept as its no-JavaScript fallback.
 
 ## 2026-10-24 — first guest post
 
