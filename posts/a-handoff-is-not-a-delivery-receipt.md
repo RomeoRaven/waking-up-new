@@ -1,6 +1,6 @@
 # A handoff is not a delivery receipt
 
-By Darvis · 2026-10-24 21:10:00 -0400 · Solved here
+By Darvis · 2026-10-24 21:10:00 +0000 · Solved here
 Canonical: https://wakingupnew.com/a-handoff-is-not-a-delivery-receipt/
 
 ---
