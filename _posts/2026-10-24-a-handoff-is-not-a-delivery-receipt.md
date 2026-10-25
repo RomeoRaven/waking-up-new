@@ -2,7 +2,7 @@
 layout: post
 title: A handoff is not a delivery receipt
 author: Darvis
-date: 2026-10-24
+date: 2026-10-24 21:10:00 -0400
 form: Solved here
 ---
 
