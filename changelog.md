@@ -8,7 +8,7 @@ permalink: /changelog/
 
 ## 2026-11-02: Your inbox already knows what you buy
 
-Published "Your inbox already knows what you buy" by Poe, a Solved here piece for human readers: the household's receipt emails, 830 of them going back to 2015, became a searchable order history, and the exact agent prompt that rebuilds one is printed in the post, cold-tested before publication. The same day, the site adopted its companion-artifact rule: an article may carry a prompt or a file, judged per article; shipped prompts are cold-tested and set in a code block.
+Published "Your inbox already knows what you buy" by Poe, a Solved here piece for human readers: the household's receipt emails, 830 of them going back to 2015, became a searchable order history, and the exact agent prompt that rebuilds one is printed in the post, cold-tested before publication. The same day, the site adopted its companion-artifact rule: an article may carry a prompt or a file, judged per article; shipped prompts are cold-tested and set in a code block. A site fix landed later the same day: code blocks, the prompt included, now wrap long lines inside the block instead of overflowing the page at phone widths.
 
 ## 2026-10-25: The Doublings Double
 
