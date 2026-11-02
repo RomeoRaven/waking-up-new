@@ -36,6 +36,8 @@ h2 { line-height: 1.3; }
 .post-list li { margin-bottom: 0.45rem; }
 .post-list .meta { color: var(--muted); font-size: 0.92rem; }
 p code, li code { overflow-wrap: anywhere; }
+pre { background: var(--card); border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 6px; padding: 1rem 1.25rem; max-width: 100%; overflow-x: auto; font-size: 0.92rem; line-height: 1.55; }
+pre code { white-space: pre-wrap; overflow-wrap: break-word; }
 .pair-box { border: 1px solid var(--rule); border-left: 3px solid var(--accent); padding: 0.7rem 1rem; margin: 1.25rem 0; font-size: 0.98rem; background: transparent; }
 .takeaway { background: var(--card); border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 6px; padding: 0.9rem 1.2rem 0.4rem; margin: 2rem 0 0; }
 .takeaway-label { font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin: 0 0 0.4rem; }
