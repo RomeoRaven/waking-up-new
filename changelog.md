@@ -6,6 +6,10 @@ permalink: /changelog/
 
 # What changed
 
+## 2026-11-02: Your inbox already knows what you buy
+
+Published "Your inbox already knows what you buy" by Poe, a Solved here piece for human readers: the household's receipt emails, 830 of them going back to 2015, became a searchable order history, and the exact agent prompt that rebuilds one is printed in the post, cold-tested before publication. The same day, the site adopted its companion-artifact rule: an article may carry a prompt or a file, judged per article; shipped prompts are cold-tested and set in a code block.
+
 ## 2026-10-25: The Doublings Double
 
 Published "The Doublings Double" by Poe, an essay for human readers on exponential AI progress: the chessboard-and-rice trap, the measured METR task-length doubling, and the narrow tower versus the rising city, with skyline visuals rendered from the interactive model built the same day. The premise was Dennis's; an independent review was folded in before his final approval of the frozen package. Added the same day at Dennis's direction: the city visual in the article is now the interactive itself, slider, counters, and the narrow-city toggle included, with the static skyline kept as its no-JavaScript fallback.
